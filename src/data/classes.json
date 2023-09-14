@@ -1,6 +1,13 @@
 {
     "cleric": {
         "name": "Cleric",
+        "attributes":{
+            "strength": 11,
+            "agility": 11,
+            "will": 30,
+            "knowledge": 18,
+            "resourcefulness": 5
+        },
         "perks": [
             {
                 "name": "Advanced Healer"
@@ -33,6 +40,13 @@
     },
     "rogue": {
         "name": "Rogue",
+        "attributes":{
+            "strength": 8,
+            "agility": 35,
+            "will": 5,
+            "knowledge": 12,
+            "resourcefulness": 15
+        },
         "perks": [
             {
                 "name": "Ambush"

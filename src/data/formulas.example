@@ -1,0 +1,31 @@
+Damage:
+    ((((((Base Weapon/Magical Damage + "Buff" Weapon Damage) * Combo Bonus * Impact Zone Bonus) + "Gear" Weapon Damage/Magical Damage + Divine Strike Damage) * (1 + Power Bonus)) + Additional Damage) * (1 + Hit Location Bonus) * (1 - (Damage Reduction * (1 - Penetration))) * (1 - Projectile Reduction)) + True Damage
+Healing:
+    (Base Heal Amount + (Magical Healing * Scaling of Spell)) * (1 + Magic Power Bonus * Scaling of Spell)
+Spell restoration:
+    SP Recharge per tick (SP/tick) = Base Recharge + Spell Capacity
+
+special scaling:
+    50%:
+        Wizard's damage over time from Fireball, Zap, and Ignite
+        Cleric's Sanctuary
+        Cleric's Locust's Swarm
+        Cleric's Earthquake
+        Warlock's Torture Mastery
+        Warlock's Curse of Pain
+        Warlock's Hellfire (needs testing)
+        Barbarian's Achilles Strike movement ticks
+        Rogue's Poison Weapon
+        Rogue's Rupture
+        Unique weapon Cinder's DoT
+        Unique weapon Pestilence's DoT
+        Explosive throwables
+        Healing Potions & Troll's Blood
+        Wizard's Arcane Shield
+    0%:
+        Wizard Reactive Shield
+        Protection Potions
+        Cleric's Protection Spell
+        Bard's Tranquility song
+        Warlock's Dark Reflection
+        Warlock's Power of Sacrifice
